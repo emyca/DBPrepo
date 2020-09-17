@@ -26,5 +26,4 @@ class MainViewModel(application: Application): AndroidViewModel(application) {
         allItems = repository.readSearch(search)
         return allItems
     }
-
 }
