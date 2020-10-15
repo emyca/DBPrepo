@@ -9,7 +9,6 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.SearchView
 import androidx.appcompat.widget.Toolbar
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -91,13 +90,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun getViewModel() {
-        viewModel?.readAll()?.observe(this,
-            Observer { fruits -> adapter.showListItems(fruits)})
+        viewModel?.readAll()?.observe(this, {
+                fruits -> adapter.showListItems(fruits)})
     }
 
     private fun getSearchViewModel(searchText: String) {
-        viewModel?.readSearch(searchText)?.observe(this,
-            Observer { fruits -> adapter.showListItems(fruits) })
+        viewModel?.readSearch(searchText)?.observe(this, {
+                fruits -> adapter.showListItems(fruits) })
     }
 
     override fun onClick(v: View?) {
