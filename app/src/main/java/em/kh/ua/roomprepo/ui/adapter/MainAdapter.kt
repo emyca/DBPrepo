@@ -1,4 +1,4 @@
-package em.kh.ua.roomprepo.adapter
+package em.kh.ua.roomprepo.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import em.kh.ua.roomprepo.R
-import em.kh.ua.roomprepo.database.Fruit
+import em.kh.ua.roomprepo.data.model.Fruit
 
 
 class MainAdapter (

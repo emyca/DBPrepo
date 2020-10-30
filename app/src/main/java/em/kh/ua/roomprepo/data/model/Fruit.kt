@@ -1,4 +1,4 @@
-package em.kh.ua.roomprepo.database
+package em.kh.ua.roomprepo.data.model
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo
