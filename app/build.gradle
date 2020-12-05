@@ -7,7 +7,7 @@ android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
     defaultConfig {
-        applicationId "em.kh.ua.roomprepo"
+        applicationId "ua.kh.em.dbprepo"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

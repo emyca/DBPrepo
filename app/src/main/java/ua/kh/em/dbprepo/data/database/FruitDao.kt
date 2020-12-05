@@ -1,9 +1,9 @@
-package em.kh.ua.roomprepo.data.database
+package ua.kh.em.dbprepo.data.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Query
-import em.kh.ua.roomprepo.data.model.Fruit
+import ua.kh.em.dbprepo.data.model.Fruit
 
 
 @Dao

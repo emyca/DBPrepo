@@ -1,4 +1,4 @@
-package em.kh.ua.roomprepo
+package ua.kh.em.dbprepo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

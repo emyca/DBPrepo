@@ -1,11 +1,11 @@
-package em.kh.ua.roomprepo.ui.viewmodel
+package ua.kh.em.dbprepo.ui.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import em.kh.ua.roomprepo.data.model.Fruit
-import em.kh.ua.roomprepo.data.database.FruitDatabase
-import em.kh.ua.roomprepo.data.repos.FruitRepository
+import ua.kh.em.dbprepo.data.model.Fruit
+import ua.kh.em.dbprepo.data.database.FruitDatabase
+import ua.kh.em.dbprepo.data.repos.FruitRepository
 
 class MainViewModel(application: Application): AndroidViewModel(application) {
 

@@ -1,4 +1,4 @@
-package em.kh.ua.roomprepo.ui.view
+package ua.kh.em.dbprepo.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -13,10 +13,10 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import em.kh.ua.roomprepo.R
-import em.kh.ua.roomprepo.ui.adapter.MainAdapter
-import em.kh.ua.roomprepo.data.model.Fruit
-import em.kh.ua.roomprepo.ui.viewmodel.MainViewModel
+import ua.kh.em.dbprepo.R
+import ua.kh.em.dbprepo.ui.adapter.MainAdapter
+import ua.kh.em.dbprepo.data.model.Fruit
+import ua.kh.em.dbprepo.ui.viewmodel.MainViewModel
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 

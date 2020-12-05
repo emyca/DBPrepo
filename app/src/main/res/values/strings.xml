@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RoomPrepo</string>
+    <string name="app_name">DBPrepo</string>
 
     <string name="fruit_name">Абрикоса</string>
     <string name="menu_search">search</string>

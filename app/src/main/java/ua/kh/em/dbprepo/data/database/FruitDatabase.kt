@@ -1,10 +1,10 @@
-package em.kh.ua.roomprepo.data.database
+package ua.kh.em.dbprepo.data.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import em.kh.ua.roomprepo.data.model.Fruit
+import ua.kh.em.dbprepo.data.model.Fruit
 
 @Database(entities = [Fruit::class],version = 1,exportSchema = false)
 abstract class FruitDatabase: RoomDatabase() {

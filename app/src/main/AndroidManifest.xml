@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="em.kh.ua.roomprepo">
+    package="ua.kh.em.dbprepo">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -15,8 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="em.kh.ua.roomprepo.ui.view.DetailActivity"/>
-        <activity android:name="em.kh.ua.roomprepo.ui.view.MainActivity">
+        <activity android:name=".ui.view.DetailActivity"/>
+        <activity android:name=".ui.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

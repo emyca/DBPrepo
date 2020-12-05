@@ -1,4 +1,4 @@
-package em.kh.ua.roomprepo
+package ua.kh.em.dbprepo
 
 import org.junit.Test
 

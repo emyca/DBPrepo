@@ -1,8 +1,8 @@
-package em.kh.ua.roomprepo.data.repos
+package ua.kh.em.dbprepo.data.repos
 
 import androidx.lifecycle.LiveData
-import em.kh.ua.roomprepo.data.model.Fruit
-import em.kh.ua.roomprepo.data.database.FruitDao
+import ua.kh.em.dbprepo.data.model.Fruit
+import ua.kh.em.dbprepo.data.database.FruitDao
 
 class FruitRepository(private val fruitDao: FruitDao) {
 

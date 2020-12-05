@@ -1,11 +1,11 @@
-package em.kh.ua.roomprepo.ui.view
+package ua.kh.em.dbprepo.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
-import em.kh.ua.roomprepo.R
-import em.kh.ua.roomprepo.data.model.Fruit
+import ua.kh.em.dbprepo.R
+import ua.kh.em.dbprepo.data.model.Fruit
 
 class DetailActivity : AppCompatActivity() {
 
