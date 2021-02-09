@@ -49,6 +49,8 @@ dependencies {
     def room_version = "2.2.6"
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
+    // Room instrumented test
+    androidTestImplementation "androidx.room:room-testing:$room_version"
 
     def lifecycle_version = "2.2.0"
     // ViewModel and LiveData
@@ -56,4 +58,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
     // ViewModel KTX
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+
+    // AndroidX Test - Instrumented testing
+    androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
 }
