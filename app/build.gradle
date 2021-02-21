@@ -52,12 +52,11 @@ dependencies {
     // Room instrumented test
     androidTestImplementation "androidx.room:room-testing:$room_version"
 
-    def lifecycle_version = "2.2.0"
     // ViewModel and LiveData
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
-    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.3.0"
     // ViewModel KTX
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0"
 
     // AndroidX Test - Instrumented testing
     androidTestImplementation "androidx.arch.core:core-testing:2.1.0"
